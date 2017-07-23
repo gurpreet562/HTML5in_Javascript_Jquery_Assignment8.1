@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html> 
+<head><title>Form</title> 
+<style> 
+body{ 
+background-color:grey; 
+} 
+
+#one{ 
+width:500px; 
+height:500px; 
+background-color:grey; 
+float:left; 
+margin-top:5px; 
+margin-left:100px; 
+} 
+#second{ 
+width:500px; 
+height:500px; 
+background-color:blue; 
+float:left; 
+margin-left:100px; 
+} 
+p{ 
+margin:0;
+padding:10px; 
+} 
+#title{ 
+margin-top:70px; 
+margin-left:50px; 
+color:white; 
+font-weight:bold; 
+} 
+#text{ 
+margin-top:30px; 
+margin-left:50px; 
+} 
+input[type=text]{ 
+margin-left:60px; 
+margin-bottom:3px; 
+height:30px; 
+} 
+input[type=password]{ 
+margin-left:60px; 
+margin-bottom:3px; 
+height:30px; 
+} 
+#enter{ 
+border-color:red; 
+border-width:4px; 
+} 
+#register{ 
+margin-left:430px; 
+border-color:blue; 
+border-width:4px; 
+} 
+input[type=checkbox]{ 
+margin-left:60px; 
+} 
+#login{ 
+margin-left:180px; 
+height:40px;
+width:80px;
+border-color:yellow;
+border-width:4px;
+} 
+a{ 
+margin-left:340px; 
+} 
+word2{ 
+color:white; 
+} 
+</style> 
+</head> 
+<body> 
+<p style="color:blue" id="head1"> <b ><font size="6">ENTER THE SYSTEM</font> </b></p><br> 
+<p><b> It is necessary to login in your account in order to signup for a course.</b></p><br><br> 
+ 
+<div id="one"> 
+<p id="text"><b>ARE YOU A NEW USER?</b>&nbsp<font color="white">REGISTER</font></p><br> 
+<input type="text" placeholder="Username" size="60" id="enter"></input><br><br> 
+<input type="text" placeholder="Email" size="60" id="enter"></input><br><br> 
+<input type="password" placeholder="Password" size="60" id="enter"></input><br><br> 
+<input type="password" placeholder="Confirm Password" size="60" id="enter"></input><br><br> 
+<button type="submit" id="register"><p style="color:blue">Register</p></button> 
+</div> 
+<div id="second"> 
+<p id="title">ALREADY A STUDENT?LOGIN</p> 
+<br> 
+<input type="text" placeholder="Username" size="50"></input><br><br> 
+<input type="password" placeholder="Password" size="50"></input><br><br> 
+<input type="checkbox"><font color="white">Remember me?</font></input> 
+<button type="submit"  id="login" >LogIn</button><br><br> 
+<a href=" "><font color="white">Forgot Password?</font></a> 
+</div> 
+</body> 
+</html> 
+
